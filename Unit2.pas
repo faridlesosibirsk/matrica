@@ -3,7 +3,7 @@ unit Unit2;
 interface
 
 uses
-  Vcl.Forms,
+  Vcl.Forms, unit3,
   Generics.Collections, Winapi.Windows, Winapi.Messages, System.SysUtils,
   System.Variants,
   System.Classes, Vcl.Graphics,
@@ -63,6 +63,7 @@ begin
       OneLabel.Caption := 'I: ' + IntToStr(I) + '; J: ' + IntToStr(J);
       OneLabel.Parent := ScrollBox1;
       OneLabel.Visible := true;
+      OneLabel.OnClick := form3.OnClick;
       OneLabels.Add(OneLabel);
     end;
 end;

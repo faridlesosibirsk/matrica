@@ -20,10 +20,6 @@ object Form1: TForm1
     Height = 301
     Align = alClient
     TabOrder = 0
-    ExplicitLeft = 168
-    ExplicitTop = 144
-    ExplicitWidth = 185
-    ExplicitHeight = 41
     object Image1: TImage
       Left = 0
       Top = 0
