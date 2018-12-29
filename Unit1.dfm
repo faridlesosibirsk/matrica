@@ -1,0 +1,76 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 301
+  ClientWidth = 562
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object ScrollBox1: TScrollBox
+    Left = 0
+    Top = 0
+    Width = 562
+    Height = 301
+    Align = alClient
+    TabOrder = 0
+    ExplicitLeft = 168
+    ExplicitTop = 144
+    ExplicitWidth = 185
+    ExplicitHeight = 41
+    object Image1: TImage
+      Left = 0
+      Top = 0
+      Width = 558
+      Height = 297
+      Align = alClient
+      ExplicitLeft = 96
+      ExplicitTop = 104
+      ExplicitWidth = 105
+      ExplicitHeight = 105
+    end
+    object Button1: TButton
+      Left = 0
+      Top = 0
+      Width = 75
+      Height = 25
+      Caption = 'Button1'
+      TabOrder = 0
+      OnClick = Button1Click
+    end
+    object columnsNumber: TEdit
+      Left = 75
+      Top = 0
+      Width = 75
+      Height = 24
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Tahoma'
+      Font.Style = []
+      ParentFont = False
+      TabOrder = 1
+      Text = '5'
+    end
+    object linesNumber: TEdit
+      Left = 0
+      Top = 24
+      Width = 75
+      Height = 24
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Tahoma'
+      Font.Style = []
+      ParentFont = False
+      TabOrder = 2
+      Text = '5'
+    end
+  end
+end
